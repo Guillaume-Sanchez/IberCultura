@@ -1,0 +1,87 @@
+/* === Header === */
+
+.header_iberia{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header_iberia a{
+    color: black;
+    text-decoration: none;
+}
+
+.head-iberia{
+    margin: 2rem;
+}
+
+.logo_iberia{
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.title-iberia{
+    font-weight: 400;
+}
+
+.nav-iberia{
+    background-color: #f69481a4 !important;
+    font-family: 'Merriweather', sans-serif;
+}
+
+/* === Footer === */
+
+.footer-iberia{
+    padding: 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f69481a4 !important;
+}
+
+.footer-iberia-content{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.footer-iberia-content p{
+    margin: auto !important;
+}
+
+.logo-iberia-footer{
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.nav-footer-iberia ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 1rem;
+    margin: auto !important;
+}
+
+.nav-footer-iberia li{
+    margin-right: 1rem;
+}
+
+.nav-footer-iberia li a{
+    color: black;
+    text-decoration: none;
+}
+
+.author{
+    font-family: 'Dancing Script', cursive;
+    text-align: right;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin: auto !important;
+    background-color: #f69481a4 !important;
+}
+
+.author a {
+    color: #faf5e2;
+    text-decoration: none;
+}
