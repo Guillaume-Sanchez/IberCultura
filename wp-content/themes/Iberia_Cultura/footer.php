@@ -7,14 +7,10 @@
             <p>Tous droits réservés &copy; Iberia Cultura 2020</p>
         </div>
         <nav class="nav-footer-iberia">
-            <ul class="">
-                <li>
-                    <a href="">Mentions Légales</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
-            </ul>
+            <?php wp_nav_menu([
+            'theme_location' => 'footer',
+            ])
+            ?>
         </nav>
     </div>
     <p class="author">Auteur du thème :  <a href="https://www.guillaume-sanchez.fr">guillaume-sanchez.fr</a></p>
