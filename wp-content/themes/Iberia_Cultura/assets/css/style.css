@@ -10,6 +10,11 @@
     text-decoration: none;
 }
 
+.header_iberia a:hover{
+    color: black;
+    text-decoration: none;
+}
+
 .head-iberia{
     margin: 2rem;
 }
@@ -25,7 +30,58 @@
 
 .nav-iberia{
     background-color: #f69481a4 !important;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* === Main === */
+
+.card-style{
+    margin: 1rem !important;
+    width: auto;
+}
+
+.container{
+    border-left: 1px solid #f69481a4 !important;
+    border-right: 1px solid #f69481a4 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* = Home = */
+
+.strong-home-style{
+    color: #e28d7c;
+}
+
+.home-alaune-style{
+    background-color: #f69481a4;
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid black !important;
+    margin-top: 1rem;
+}
+
+.home-alaune-style h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem !important;
+}
+
+.carousel-style{
+    width: 45rem;
+    height: auto;
+    margin: 2rem auto 2rem auto;
+}
+
+@media only screen and (max-width: 991px) {
+    .carousel-style{
+        width: auto;
+        height: auto;
+        margin: auto auto auto auto
+    }
+}
+
+.title-home-style{
+    font-family: 'Dancing Script', cursive;
 }
 
 /* === Footer === */
@@ -82,6 +138,6 @@
 }
 
 .author a {
-    color: #faf5e2;
+    color: #e28d7c;
     text-decoration: none;
 }

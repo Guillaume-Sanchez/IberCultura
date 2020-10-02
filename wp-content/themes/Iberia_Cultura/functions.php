@@ -18,7 +18,7 @@ function bootstrap_register_assets() {
 };
 
 function iberia_register_style() {
-    wp_register_style('iberia_style', get_template_directory_uri() . '/assets/css/style.scss');
+    wp_register_style('iberia_style', get_template_directory_uri() . '/assets/css/style.css');
     wp_enqueue_style('iberia_style');
 };
 

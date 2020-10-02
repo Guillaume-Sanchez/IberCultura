@@ -2,7 +2,12 @@
 
 <main class="container">
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <h1 class="title-home-style">Bienvenue sur le site <strong class="strong-home-style">d'Iberia Cultura</strong></h1>
+
+</div>
+
+
+    <div id="carouselExampleIndicators" class="carousel-style carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item">
                 <img src="<?= get_template_directory_uri() ?>/assets/images/Caroussel/soiree-60.jpg" class="d-block w-100" alt="...">
@@ -24,12 +29,16 @@
         </a>
     </div>
 
+    <div class="home-alaune-style">
+        <h2>À la Une</h2>
+    </div>
+
     <?php if (have_posts()) : ?>
 
         <?php while (have_posts()) : the_post(); ?>
 
-            <div class="card" style="width: max;">
-                <?php the_post_thumbnail('medium', ['class' => 'card-img-top', 'alt' => '', 'style' => 'height: auto;' ]) ?>
+            <div class="card card-style">
+                <?php the_post_thumbnail('medium', ['class' => 'card-img-top', 'alt' => '', 'style' => 'height: 15rem; width: auto; margin: 2rem auto 2rem auto;' ]) ?>
                 <div class="card-body">
                     <h5 class="card-title"> <?php the_title() ?></h5>
                     <p class="card-text"><?php the_content('En voir plus') ?></p>
